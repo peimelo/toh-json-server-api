@@ -1,13 +1,23 @@
-# API Server
+# Tour of Heroes Mock API Server
 
-To install and start the API server, run the following commands in this directory:
+Tour of Heroes Mock API example using [json-server](https://github.com/typicode/json-server).
 
-- `npm install`
-- `npm start`
+## Configuration
 
-Open `http://localhost:3001`
+```bash
+git clone https://github.com/peimelo/toh-json-server-api.git
+cd toh-json-server-api
 
-### API Endpoint
+# installation of dependencies
+npm install
+
+# run the project
+npm start
+```
+
+The backend is available at `http://localhost:3001/api`
+
+## API Endpoints
 
 The following endpoints are available:
 
