@@ -10,6 +10,7 @@ app.use(middlewares);
 app.use(
   jsonServer.rewriter({
     '/api/*': '/$1',
+    '/heroes\\?name=:term': '/heroes?q=:term',
   })
 );
 
